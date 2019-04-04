@@ -61,4 +61,4 @@ with tf.Session() as sess:
 ### 텐서플로 자료형의 종류
 --생략--
 
-[Next]()
+[Next](https://github.com/bhy304/todayMarkdown/blob/master/2019-04-04-Tensorflow_Basic3.md)
