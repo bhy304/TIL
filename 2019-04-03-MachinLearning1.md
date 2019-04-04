@@ -1,7 +1,6 @@
 #### Reference
-[1.Youtube_Channel](https://www.youtube.com/playlist?list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm) 
-<br>
-[2.Reference site](https://forensics.tistory.com/4)
+[1.Reference site](https://forensics.tistory.com/4) <br>
+[2.동영상 강의](https://www.youtube.com/watch?v=qPMeuL2LIqY&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&index=2) 
 
 ---
 # 기본적인 머신러닝의 용어와 개념 설명
