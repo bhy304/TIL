@@ -13,3 +13,13 @@
     import matplotlib as mpl
     mpl.font_manager._rebuild()
     mpl.pyplot.rc('font', family= 'NanumBarunGothic')
+
+# Google Drive와 Colab 연동
+
+    from google.colab import auth
+    auth.authenticate_user()
+
+    from google.colab import drive
+    drive.mount('/content/gdrive')
+    
+    !cd content/gdrive/My Drive/Colab Notebooks/; ls -al; # 디렉터리 확인
