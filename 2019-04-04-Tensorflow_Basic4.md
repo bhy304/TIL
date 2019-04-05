@@ -23,24 +23,4 @@
   * 메모리 상에서 텐서를 저장하는 버퍼 역할
   
 ### 실습 예제
-1) 구구단 계산
-```python
-import tensorflow as tf
-
-#구구단
-def gugu(dan):
-  left = tf.placeholder(tf.int32)
-  right = tf.placeholder(tf.int32)
-  calc = tf.multiply(left, right)
-  
-  with tf.Session() as sess: # 세션 생성
-    # 변수 초기화
-    sess.run(tf.global_variables_initializer())
-    
-    for i in range(1,10):
-      # 세션.run(실행할함수, feed_dict={변수:입력할값})
-      result = sess.run(calc, feed_dict={left: dan, right: i})
-      print("{0} x {1} = {2:2}".format(dan, i, result))
-      
-gugu(7) # 7단 계산
-```
+-- Google Colab에서 실습 실행 -- 
