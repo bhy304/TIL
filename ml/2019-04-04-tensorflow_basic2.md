@@ -66,5 +66,3 @@ with tf.Session() as sess:
 
 --생략--
 
-[Next](https://github.com/bhy304/todayMarkdown/blob/master/2019-04-04-Tensorflow_Basic3.md)
-

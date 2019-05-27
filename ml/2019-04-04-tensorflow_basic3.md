@@ -123,5 +123,3 @@ print(sess.run(expr, feed_dict={X: x_data})
 sess.close()
 ```
 
-[Next](https://github.com/bhy304/todayMarkdown/blob/master/2019-04-04-Tensorflow_Basic4.md)
-
