@@ -1,6 +1,7 @@
-# 
+# 2019-04-04-Tensorflow\_Basic3
 
-### Session1
+## Session1
+
 ```python
 import tensorflow as tf
 # 상수 선언
@@ -22,8 +23,9 @@ print(sess.run([a,b,c]))
 sess.close()
 ```
 
-### Session2
-```python 
+## Session2
+
+```python
 import tensorflow as tf
 node1 = tf.constant(3.0)
 node2 = tf.constant(4.0)
@@ -32,13 +34,14 @@ node3 = tf.add(node1, node2)
 with tf.Session() as sess:
   print("node3:", node3)
   print("sess.run(node3) : ", sess.run(node3))
-  
+
 # sess.run을 실행시키지 않으면 노드구조만 출력
 # sess.run을 실행시켜야 실제 결과 출력
-# with문을 쓰게 되면 세션을 생성된 후에 문장이 종료되면 자동으로 세션이 종료된다. 
+# with문을 쓰게 되면 세션을 생성된 후에 문장이 종료되면 자동으로 세션이 종료된다.
 ```
 
-### Placeholder
+## Placeholder
+
 ```python
 import tensorflow as tf
 # Placeholder : 그래프의 입력 변수
@@ -78,11 +81,12 @@ init = tf.global_variable_initializer()
 with tf.Session() as sess:
   sess.run(init)
   result = sess.run(linear_model, feed_dict={[1,2,3,4]})
-  
+
 print(result, type(result))
 ```
 
-### placeholder와 변수의 개념
+## placeholder와 변수의 개념
+
 ```python
 import tensorflow as tf
 # tf.placeholder : 계산을 실행할 때 입력값을 받는 변수
@@ -120,3 +124,4 @@ sess.close()
 ```
 
 [Next](https://github.com/bhy304/todayMarkdown/blob/master/2019-04-04-Tensorflow_Basic4.md)
+
