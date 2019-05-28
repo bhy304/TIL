@@ -8,7 +8,7 @@
 * [2019-04-04-Tensorflow\_Basic2](ml/2019-04-04-tensorflow_basic2.md)
 * [2019-04-04-Tensorflow\_Basic3](ml/2019-04-04-tensorflow_basic3.md)
 * [2019-04-04-Tensorflow\_Basic4](ml/2019-04-04-tensorflow_basic4.md)
-* \*\*\*\*[2019-04-03-MachineLearning1](ml/2019-04-03-machinlearning1.md)
+* [2019-04-03-MachineLearning1](ml/2019-04-03-machinlearning1.md)
 * [2019-04-03-MachineLearning2](ml/2019-04-03-machinlearning2.md)
 * [2019-04-03-MachineLearning3](ml/2019-04-03-machinlearning3.md)
 * [2019-04-18-DeepLearning](ml/2019-04-18-deeplearning.md)
