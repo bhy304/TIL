@@ -16,9 +16,13 @@ New File **Hello.py**
 Write code 
 {% endhint %}
 
+{% code-tabs %}
+{% code-tabs-item title="Hello.py" %}
 ```python
 print("Hello World!")
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Run Code
 
@@ -55,7 +59,7 @@ True
 
 ## 변수\(Variables\)
 
-1. **정수, 실수, 논리**
+#### **1. 정수, 실수, 논리**
 
 ```bash
 >>> num = 30
@@ -87,7 +91,7 @@ True
 <class 'float'>
 ```
 
-2. 문자열
+#### 2. 문자열 
 
 str = **List\(Array\) of Character**
 
@@ -179,5 +183,61 @@ True
 '+000023.3400000'
 ```
 
-\*\*\*\*
+## Composite Operation 복합연산자
+
+```bash
+>>> x = 30
+>>> x += 10
+>>> print(x)
+40
+>>> x -= 10
+>>> print(x)
+30
+
+>>> x++
+  File "<stdin>", line 1
+    x++
+      ^
+SyntaxError: invalid syntax
+# Python에서는 x++, x-- 사용할 수 없다!
+```
+
+```bash
+>>> x = 1
+>>> x += 1 # x++ , x = x + 1
+>>> print(x)
+2
+>>> x -= 1 # x-- , x = x - 1
+>>> print(x)
+1
+```
+
+```bash
+>>> s = "안녕하세요"
+>>> s += "Hi~"
+>>> print(s)
+안녕하세요Hi~
+```
+
+## Casting 형변환
+
+```bash
+# String to Int or Float
+>>> si, sf = "3", "3.5"
+>>> i, f = int(si), float(sf)
+>>> print(i, f)
+3 3.5
+>>> print(type(i), type(f))
+<class 'int'> <class 'float'>
+
+>>> si, sf = "3", "3.5"
+>>> float(sf)
+3.5
+>>> float(si)
+3.0
+>>> str(23)
+'23'
+>>> type(str(23))
+<class 'str'>
+```
 

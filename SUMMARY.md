@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Blog](README.md)
+* [Index](README.md)
 * [2019-04-05\_Done](2019-04-05-todaydone.md)
 
 ## ML
@@ -25,4 +25,10 @@
 * [what is python?](python/what-is-python.md)
 * [python01](python/python.md)
 * [python02](python/python2.md)
+
+## Django
+
+## Git with Github
+
+* [Git 시작하기](git-with-github/git.md)
 
