@@ -1,6 +1,6 @@
-# Table of contents
+# todayMarkdown
 
-* [todayMarkdown](README.md)
+* [todayMarkdown](./)
 * [2019-04-05\_Done](2019-04-05-todaydone.md)
 
 ## ML

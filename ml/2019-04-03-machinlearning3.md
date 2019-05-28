@@ -1,4 +1,4 @@
-# 2019-04-03-MachinLearning3
+# 2019-04-03-MachineLearning3
 
 [동영상 강의](https://www.youtube.com/watch?v=TxIVr-nk1so&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&index=6)
 
