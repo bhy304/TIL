@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Index](README.md)
-* [2019-04-05\_Done](2019-04-05-todaydone.md)
 
 ## ML
 
@@ -28,7 +27,7 @@
 
 ## Django
 
-## Git with Github
+## GitHub
 
 * [Git 시작하기](git-with-github/git.md)
 

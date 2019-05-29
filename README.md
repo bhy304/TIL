@@ -1,7 +1,5 @@
 # Index
 
-* [2019-04-05\_Done](2019-04-05-todaydone.md)
-
 ## ML
 
 * [2019-04-04-Tensorflow\_Basic1](ml/2019-04-04-tensorflow_basic1.md)
