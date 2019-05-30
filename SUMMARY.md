@@ -24,6 +24,7 @@
 * [what is python?](python/what-is-python.md)
 * [python01](python/python.md)
 * [python02](python/python2.md)
+* [python03](python/python3.md)
 
 ## Django
 

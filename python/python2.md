@@ -1,5 +1,5 @@
 ---
-description: '자료구조(List, Tuple, Dictionary), if condition, for loop, while loop,'
+description: '자료구조(List, Tuple, Dictionary), if condition, for loop, while loop'
 ---
 
 # python02
