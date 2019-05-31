@@ -1,5 +1,5 @@
 ---
-description: 'Input, Function 함수'
+description: 'Input, Function 함수, Class'
 ---
 
 # python03
@@ -136,7 +136,7 @@ print(name, full_name('Steave','Loser'))
 ```
 
 ```python
-# * : 가변인자(valuable param)
+# * : 가변인자(valuable param) => Tuple 타입
 def var_param(a, *vp):
     print(type(vp))
     print(a, len(vp), vp[len(vp) -1])
@@ -152,11 +152,52 @@ default_param('aa','bbbbbbbbbbb')
 
 #### Try this
 
-두 수를 받아 사칙연산하시오
+두 수를 받아, 사칙연산\(+,-,\*,/\)을 수행하는 함수를 만들어 보시오.
 
+```python
+def plus(a, b):
+    return a + b
+    
+def minus(a, b):
+    return a - b
 
+def multiply(a, b):
+    return a * b
 
-## Recursive Function 재귀함수
+def divide(a, b):
+    if b == 0:
+        return a
+    return a / b
+
+cmd = input("수식을 입력하세요(usage: 2 + 3)> ")
+cmds = cmd.split(' ')
+
+# @Try cmds 하나만으로 set해보기!
+a, op, b = cmds
+# print("a=", a, ", op =", op, ", b=", b)
+a, b = int(a), int(b)
+
+#a, op, b = int(cmds[0]), cmds[1], int(cmds[2])
+
+if op == '+':
+    r = plus(a, b)
+
+elif op == '-':
+    r = minus(a, b)
+
+elif op == '*':
+    r = multiply(a, b)
+
+else:
+    r = divide(a,b)
+
+if op in '+-*':
+    print("Answer is {:d}".format(r))
+else:
+    print("Answer is {:.2f}".format(r))
+```
+
+## Class
 
 
 
