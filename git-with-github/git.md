@@ -1,10 +1,14 @@
 ---
-description: '버전관리시스템(Version Control System), 소스 형상 관리(SCM)'
+description: 'Git 설치 및 설정, add, commit, push, pull, clone'
 ---
 
-# Git 시작하기
+# 01.Commit, Push, Pull
 
-## Download git client
+> 버전관리시스템\(Version Control System\), 소스 형상 관리\(SCM\)
+
+## Git 시작하기
+
+#### Download git client
 
 {% embed url="https://git-scm.com/downloads" %}
 

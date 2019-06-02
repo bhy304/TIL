@@ -8,12 +8,14 @@
 * [python01](python/python.md)
 * [python02](python/python2.md)
 * [python03](python/python3.md)
+* [python04](python/python04.md)
 
 ## Django
 
-## GitHub
+## Git
 
-* [Git 시작하기](git-with-github/git.md)
+* [01.Commit, Push, Pull](git-with-github/git.md)
+* [02.Reset, Revert, Merge](git-with-github/02.reset-revert-merge.md)
 
 ## Docker
 

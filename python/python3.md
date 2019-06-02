@@ -269,7 +269,28 @@ print(d.name, p.name, p.color)
 
 ## Encapsulation 캡슐화
 
+```python
+#클래스 내에서만 함수 호출 가능, Instance 내에서만 호출할 수 있음
+class Test:
+    def test(self):
+        print("Puppy's test")
+        self.__q()
 
+    def __q(self):
+        print("qqqqqqqqqqqqq")
 
- 
+test = Test()
+#test.__q()
+test.test()
+```
+
+##  **Static Method on Class**
+
+**Class는 정적, Instance 동적**
+
+```python
+# Non self argument
+def static():
+        print("static method on class")
+```
 
