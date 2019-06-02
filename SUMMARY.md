@@ -9,6 +9,7 @@
 * [python02](python/python2.md)
 * [python03](python/python3.md)
 * [python04](python/python04.md)
+* [python05](python/python05.md)
 
 ## Django
 
