@@ -199,5 +199,77 @@ else:
 
 ## Class
 
+```python
+class Dog:
+    #def __init__(self):
+        # self.name = "Dog"
+        #print("Dog was Born")
+    
+    def __init__(self, name):
+        self.name = name
+        print(self.name, "was Born")
 
+    def speak(self):
+        print("YELP!", self.name)
+
+    def wag(self):
+        print("Dog's wag tail!")
+
+    def __del__(self):
+        print("destroy!!")
+
+# puddle = Dog()
+# puddle.speak()
+
+puddle = Dog("puddle")
+Shepard = Dog("Shepard")
+puddle.speak()
+Shepard.speak()
+```
+
+## Inheritance 상속
+
+```python
+class Dog:
+    def __init__(self, name):
+        self.name = name
+        print(self.name, "was Born")
+
+    def speak(self):
+        print("YELP!", self.name)
+
+    # def wag(self):
+    #     print("Dog's wag tail!")
+
+    def __del__(self):
+        print("destroy!!")
+
+# Inheritance 
+class Puppy(Dog):
+    def __init__(self):
+        self.name = "Puppy"
+        self.color = "Red"
+        print("QQQ> Puppy was Born")
+
+    def speak(self):
+        print("Bow wow!", self.name)
+
+    def wag(self):
+        print("Puppy's wag tail!")
+
+d = Dog('puddle')
+p = Puppy()
+d.speak()
+p.speak()
+#d.wag()
+p.wag()
+
+print(d.name, p.name, p.color)
+```
+
+## Encapsulation 캡슐화
+
+
+
+ 
 
