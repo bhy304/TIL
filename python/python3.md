@@ -135,9 +135,10 @@ name = get_name()
 print(name, full_name('Steave','Loser')) 
 ```
 
+' \* ' : 가변인자\(valuable param\) =&gt; Tuple 타입
+
 ```python
-# * : 가변인자(valuable param) => Tuple 타입
-def var_param(a, *vp):
+def var_param(a, *vp): # * : 가변인자(valuable param) => Tuple 타입
     print(type(vp))
     print(a, len(vp), vp[len(vp) -1])
 var_param('aa','bb','cc')
