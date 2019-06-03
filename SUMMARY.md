@@ -10,6 +10,8 @@
 * [python03](python/python3.md)
 * [python04](python/python04.md)
 * [python05](python/python05.md)
+* [python06](python/python06.md)
+* [Question](python/q.md)
 
 ## Django
 

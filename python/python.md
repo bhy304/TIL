@@ -59,7 +59,7 @@ True
 
 ## 변수\(Variables\)
 
-#### **1. 정수, 실수, 논리**
+### **1. 정수, 실수, 논리**
 
 ```bash
 >>> num = 30
@@ -91,7 +91,7 @@ True
 <class 'float'>
 ```
 
-#### 2. 문자열 
+### 2. 문자열 
 
 str = **List\(Array\) of Character**
 

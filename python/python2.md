@@ -140,6 +140,16 @@ False # "in"은 key에서만 찾는다!
 3100
 ```
 
+#### 응용 문제
+
+```bash
+>>> fruits={'orange':200, 'apple':300, 'banana':500}
+>>> cart = {'orange':3, 'apple':2, 'banana': 2}
+>>> total = fruits['orange']*cart['orange'] + fruits['apple']*cart['apple'] +fruits['banana']*cart['banana']
+>>> total
+2200
+```
+
 ## if condition
 
 {% code-tabs %}
