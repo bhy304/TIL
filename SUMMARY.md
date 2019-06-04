@@ -12,6 +12,7 @@
 * [python05](python/python05.md)
 * [python06](python/python06.md)
 * [python07](python/python07.md)
+* [python08](python/python08.md)
 * [Question](python/q.md)
 
 ## Django
