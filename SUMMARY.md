@@ -13,6 +13,7 @@
 * [python06](python/python06.md)
 * [python07](python/python07.md)
 * [python08](python/python08.md)
+* [python09](python/python09.md)
 * [Question](python/q.md)
 
 ## Django
@@ -42,4 +43,10 @@
 * [2019-04-05-GoogleColab](server/2019-04-05-googlecolab.md)
 * [Tacotron Test at server 192.168.113.104](server/2019-04-02-serverenvironment.md)
 * [2019-04-01-Local\_Environment](server/2019-04-01-local_environment.md)
+
+## Linux
+
+## DB
+
+## Web
 
