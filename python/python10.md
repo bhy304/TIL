@@ -29,11 +29,5 @@ from bs4 import BeautifulSoup
 
 ## HTTP
 
-|  |  |
-| :--- | :--- |
-| request |  |
-| response |  |
-|  |  |
-
-
+request, response
 
