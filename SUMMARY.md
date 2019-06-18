@@ -14,11 +14,12 @@
 * [python07](python/python07.md)
 * [python08](python/python08.md)
 * [python09](python/python09.md)
+* [python10](python/python10.md)
 * [Question](python/q.md)
 
 ## Django
 
-## Git
+## Git <a id="git-with-github"></a>
 
 * [01.Commit, Push, Pull](git-with-github/git.md)
 * [02.Reset, Revert, Merge](git-with-github/02.reset-revert-merge.md)
