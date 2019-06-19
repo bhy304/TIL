@@ -35,13 +35,20 @@ from bs4 import BeautifulSoup
 
 * **request**
 * **response**
-* header
+* header\(user-agent, referer\)
 * cookie
 * session
 * method\(get, post, put, patch, delete, options\)
 * statuscode
 
 ## requests module
+
+```python
+import requests
+r = requests.get('http://www.google.com', timeout=(5 ,14))
+r.text
+r.status_code
+```
 
 
 
