@@ -2,6 +2,14 @@
 
 * [Index](README.md)
 
+## Data Structure & Algorithm <a id="datastructure"></a>
+
+* [자료구조와 알고리즘](datastructure/undefined.md)
+
+## JavaScript
+
+* [Untitled](javascript/untitled.md)
+
 ## python
 
 * [what is python?](python/what-is-python.md)
@@ -16,8 +24,6 @@
 * [python09](python/python09.md)
 * [python10](python/python10.md)
 * [Question](python/q.md)
-
-## Django
 
 ## Git <a id="git-with-github"></a>
 
@@ -42,13 +48,7 @@
 
 ## Server
 
+* [2019-04-01-Local\_Environment](server/2019-04-01-local_environment.md)
 * [2019-04-05-GoogleColab](server/2019-04-05-googlecolab.md)
 * [Tacotron Test at server 192.168.113.104](server/2019-04-02-serverenvironment.md)
-* [2019-04-01-Local\_Environment](server/2019-04-01-local_environment.md)
-
-## Linux
-
-## DB
-
-## Web
 

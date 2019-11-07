@@ -9,10 +9,7 @@ description: 외부 모듈
 Usage: pip  &lt;command&gt; \[options\]
 
 ```bash
-pip list
-pip install #<모듈명>
-pip uninstall
-python -m site # sys.path처럼 파이썬라이브러리가 설치되어 있는 디렉터리 확인
+pip listpip install #<모듈명>pip uninstallpython -m site # sys.path처럼 파이썬라이브러리가 설치되어 있는 디렉터리 확인
 ```
 
 ## BeautifulSoup4
@@ -22,11 +19,7 @@ python -m site # sys.path처럼 파이썬라이브러리가 설치되어 있는 
 {% embed url="https://www.crummy.com/software/BeautifulSoup/" %}
 
 ```bash
-pip install beautifulsoup4
-pip install requests
-# 설치 확인
-pip show beautifulsoup4
-from bs4 import BeautifulSoup
+pip install beautifulsoup4pip install requests# 설치 확인pip show beautifulsoup4from bs4 import BeautifulSoup
 ```
 
 ## HTTP
@@ -44,10 +37,7 @@ from bs4 import BeautifulSoup
 ## requests module
 
 ```python
-import requests
-r = requests.get('http://www.google.com', timeout=(5 ,14))
-r.text
-r.status_code
+import requestsr = requests.get('http://www.google.com', timeout=(5 ,14))r.textr.status_code
 ```
 
 

@@ -21,9 +21,7 @@
 * 용량 확보를 위해서 필요없는 데이터 삭제
 
   ```text
-  [brain@class24 ~]$ rm -r sontestdata/
-  [brain@class24 ~]$ rm Untitled.ipynb
-  [brain@class24 ~]$ rm Anaconda3-2018.12-Linux-x86_64.sh
+  [brain@class24 ~]$ rm -r sontestdata/[brain@class24 ~]$ rm Untitled.ipynb[brain@class24 ~]$ rm Anaconda3-2018.12-Linux-x86_64.sh
   ```
 
 * CPU 확인
@@ -45,8 +43,7 @@
 * conda, python 버전 확인
 
   ```text
-  conda --version
-  python --version
+  conda --versionpython --version
   ```
 
 * conda 가상환경 리스트 확인
@@ -58,8 +55,7 @@
 * 가상환경 새로 생성
 
   ```text
-  conda create --name tacotron python=3.6
-  [brain@class24 ~]$ conda activate tacotron
+  conda create --name tacotron python=3.6[brain@class24 ~]$ conda activate tacotron
   ```
 
 ## git 설치
@@ -79,15 +75,13 @@
 * git clone
 
   ```text
-  $ su - brain
-  [brain@class24 ~]$ git clone https://github.com/keithito/tacotron.git
+  $ su - brain[brain@class24 ~]$ git clone https://github.com/keithito/tacotron.git
   ```
 
 * clone된 directory 확인
 
   ```text
-  $ cd tacotron 
-  [brain@class24 tacotron]$ ls -al
+  $ cd tacotron [brain@class24 tacotron]$ ls -al
   ```
 
 ## Server에서 실행
@@ -123,8 +117,7 @@
 * 방화벽 상태 확인 및 방화벽 해제
 
   ```text
-  [brain@class24 ~]$ systemctl status firewalld 
-  [brain@class24 ~]$ systemctl stop firewalld
+  [brain@class24 ~]$ systemctl status firewalld [brain@class24 ~]$ systemctl stop firewalld
   ```
 
 * 방화벽 영구 제거
@@ -154,8 +147,7 @@
 * tree 명령 in Linux
 
   ```text
-  (tacotron) [brain@class24 tacotron]$ ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
-  (tacotron) [brain@class24 tacotron]$ du -sh * #용량확인 
+  (tacotron) [brain@class24 tacotron]$ ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'(tacotron) [brain@class24 tacotron]$ du -sh * #용량확인 
   ```
 
 ## Preprocess the data
