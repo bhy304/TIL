@@ -1,10 +1,10 @@
 # Table of contents
 
-* JavaScript
-* Data Structures and Algorithm
-* Python
-* MachineLearning
-* Server
-* Git with GitHub
-* Docker
+* [JavaScript](javascript/)
+* [Data Structures and Algorithm](datastructure/)
+* [Python](python/)
+* [MachineLearning](ml/)
+* [Server](server/)
+* [Git with GitHub](git-with-github/)
+* [Docker](docker/)
 
