@@ -20,13 +20,15 @@
 * 그래프를 만들고 \(모델링\) Session을 만들어 실행시켜야 노드가 엣지를 타고 이동하면서 원하는 형태로 코드가 동작됨
 
 ```python
-  sess = tf.Session()  sess.run(실행할 코드)
+  sess = tf.Session()
+  sess.run(실행할 코드)
 ```
 
 또는
 
 ```python
-with tf.Session() as sess:  sess.run(실행할 코드)
+with tf.Session() as sess:
+  sess.run(실행할 코드)
 ```
 
 2\) Fetch : 코드에서 데이터값을 미리 정하는 것

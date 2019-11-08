@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Index](README.md)
+* [Index](./)
 
 ## Data Structure & Algorithm <a id="datastructure"></a>
 
-* [자료구조와 알고리즘](datastructure/undefined.md)
+* [자료구조와 알고리즘](https://github.com/bhy304/TIL/tree/6fb1c4acf86c30a6fb415ba01808adce907ee970/datastructure/undefined.md)
 
 ## JavaScript
 

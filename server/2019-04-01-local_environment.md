@@ -9,7 +9,8 @@
 1-2. python 3.6 버전으로 가상환경 구축
 
 ```text
-  conda create --name "tacotron" python=3.6activate tacotron
+  conda create --name "tacotron" python=3.6
+activate tacotron
 ```
 
 1-3. pip install tensorflow==1.3.0   
@@ -19,7 +20,8 @@
  ※ Error 발생으로 \#numpy==1.14.3, \#scipy==0.19.0 주석 처리
 
 ```text
-  pip install -U numpy  pip install -U scipy 
+  pip install -U numpy
+  pip install -U scipy 
 ```
 
 ## 2. Using a pre-trained model
@@ -51,13 +53,15 @@
 * process.py : os.path.expanduser 경로 수정!
 
   ```text
-    def main():    parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
+    def main():
+      parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
   ```
 
 * train.py : os.path.expanduser 경로 수정!
 
   ```text
-    def main():    parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
+    def main():
+      parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
   ```
 
 1. Train a model
