@@ -1,2 +1,2 @@
-# git-with-github
+# Git with GitHub
 
