@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Table of contents](README.md)
-* [JavaScript](javascript/README.md)
-  * [Untitled](javascript/untitled.md)
+* [JavaScript30](javascript30.md)
 * [DataStructure and Algorithm](datastructure/README.md)
   * [자료구조와 알고리즘](datastructure/datastructureandalgorithm.md)
 * [Python](python/README.md)

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [JavaScript](javascript/)
+* [JavaScript](javascript30.md)
 * [Data Structures and Algorithm](datastructure/)
 * [Python](python/)
 * [MachineLearning](ml/)
