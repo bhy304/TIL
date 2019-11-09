@@ -2,7 +2,7 @@
 description: 문제 풀기
 ---
 
-# Question
+# Questions
 
 ## Q1
 

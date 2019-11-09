@@ -1,10 +1,3 @@
-# Table of contents
+# Today I Learned
 
-* [JavaScript](javascript30.md)
-* [Data Structures and Algorithm](datastructure/)
-* [Python](python/)
-* [MachineLearning](ml/)
-* [Server](server/)
-* [Git with GitHub](git-with-github/)
-* [Docker](docker/)
-
+ 📝 개발 공부한 것들을 정리합니다.
