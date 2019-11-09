@@ -1,2 +1,0 @@
-# TODAY I LEARNED
-
