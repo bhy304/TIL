@@ -67,7 +67,7 @@
 * git 설치를 위해 root 계정으로 변경
 
   ```text
-  $ su - 
+  $ su -
   ```
 
 * git 설치
@@ -155,7 +155,7 @@
 
   ```text
   (tacotron) [brain@class24 tacotron]$ ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
-  (tacotron) [brain@class24 tacotron]$ du -sh * #용량확인 
+  (tacotron) [brain@class24 tacotron]$ du -sh * #용량확인
   ```
 
 ## Preprocess the data

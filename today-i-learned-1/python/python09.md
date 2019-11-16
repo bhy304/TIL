@@ -26,7 +26,6 @@ def div(a, b):
     if b == 0:
         return a 
     return a / b
-
 ```
 {% endtab %}
 {% endtabs %}
@@ -252,7 +251,7 @@ html = urllib.request.urlopen(url, context=ctx).read()
 
 ### sys.path와 os.path의 차이
 
-sys.path는 파이썬 라이브러리\(파이썬 시스템\)의 path이고, 
+sys.path는 파이썬 라이브러리\(파이썬 시스템\)의 path이고,
 
 os.path는 operator system\(mac, windows 등/환경변수\)의 path이다.
 
@@ -268,7 +267,7 @@ os.path
 
 #### Try This!
 
-1\) python 실행 전 화면 clear 하기를 os 모듈로 만들어보세요. 
+1\) python 실행 전 화면 clear 하기를 os 모듈로 만들어보세요.
 
 2\) 현재 작업중인 hello 디렉토리에서 소스를 add, commit, push하기
 

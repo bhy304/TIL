@@ -20,6 +20,6 @@ $ git revert # history만 변경(history가 쌓임), 소스는 그대로
 ```bash
 $ git reset [revision_number]
 $ git revert [revision_number]
-$ git reset --hard [revision_number] 
+$ git reset --hard [revision_number]
 ```
 

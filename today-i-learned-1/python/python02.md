@@ -74,7 +74,7 @@ has 사과 True
 
 ## Tuple : \( \)
 
-#### Tuple은 Read Only List
+### Tuple은 Read Only List
 
 ```bash
 >>> fruits = ['오렌지', '사과', '바나나']
@@ -111,7 +111,7 @@ AttributeError: 'tuple' object has no attribute 'append'
 
 ## Dictionary **: { }**
 
-#### **Hash Map, key: value, JSON**
+### **Hash Map, key: value, JSON**
 
 ```bash
 >>> fruits = {'사과':400, '바나나':200, '파인애플':500}
@@ -129,7 +129,7 @@ True
 False # "in"은 key에서만 찾는다!
 ```
 
-#### Try this!
+### Try this!
 
 "오렌지 3개, 사과 2개, 바나나 5개를 샀다면 총 구매액은?"
 
@@ -140,7 +140,7 @@ False # "in"은 key에서만 찾는다!
 3100
 ```
 
-#### 응용 문제
+### 응용 문제
 
 ```bash
 >>> fruits={'orange':200, 'apple':300, 'banana':500}
@@ -202,7 +202,7 @@ for i in range(1, 100):
 
 ```text
 while (True):
-    수행할 문장 
+    수행할 문장
 ```
 
 > while문의 조건문이 True이므로 항상 참이 된다. 따라서 while문 안에 있는 문장들은 무한하게 수행될 것이다.
@@ -222,7 +222,7 @@ while (True):
 End!! 4915
 ```
 
-#### 문제1\) 1부터 100까지의 합을 구하시오.
+### 문제1\) 1부터 100까지의 합을 구하시오.
 
 ```python
 i, sum = 0, 0
@@ -241,7 +241,7 @@ for i in range(100): # 0 ~ 99
 print(sum) #5050
 ```
 
-#### 문제2\) 1부터 100까지의 홀수의 합을 구하시오.
+### 문제2\) 1부터 100까지의 홀수의 합을 구하시오.
 
 ```python
 i, sum = 0, 0
@@ -262,7 +262,5 @@ for i in range(100):
 print(sum) #2550
 ```
 
-#### 문제3\) 1 ~ 100 중에서 소수\(약수가 1과 자기자신\)의 합을구하시오.
-
-
+### 문제3\) 1 ~ 100 중에서 소수\(약수가 1과 자기자신\)의 합을구하시오.
 

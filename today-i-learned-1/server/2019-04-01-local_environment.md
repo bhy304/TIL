@@ -13,21 +13,21 @@
 activate tacotron
 ```
 
-1-3. pip install tensorflow==1.3.0   
- ※ This code works with TensorFlow 1.3 and later.
+1-3. pip install tensorflow==1.3.0  
+※ This code works with TensorFlow 1.3 and later.
 
-1-4. pip install -r requirements.txt   
- ※ Error 발생으로 \#numpy==1.14.3, \#scipy==0.19.0 주석 처리
+1-4. pip install -r requirements.txt  
+※ Error 발생으로 \#numpy==1.14.3, \#scipy==0.19.0 주석 처리
 
 ```text
   pip install -U numpy
-  pip install -U scipy 
+  pip install -U scipy
 ```
 
 ## 2. Using a pre-trained model
 
-2-1. Download and unpack a model:   
- [http://data.keithito.com/data/speech/tacotron-20180906.tar.gz](http://data.keithito.com/data/speech/tacotron-20180906.tar.gz) 다운로드 후 압축 풀기 → 프로젝트 폴더로 파일 이동
+2-1. Download and unpack a model:  
+[http://data.keithito.com/data/speech/tacotron-20180906.tar.gz](http://data.keithito.com/data/speech/tacotron-20180906.tar.gz) 다운로드 후 압축 풀기 → 프로젝트 폴더로 파일 이동
 
 2-2. Run the demo server:
 
@@ -35,8 +35,8 @@ activate tacotron
  python demo_server.py --checkpoint tacotron-20180906/model.ckpt
 ```
 
-2-3. Point your browser at localhost:9000   
- 브라우저에서 localhost:9000 접속
+2-3. Point your browser at localhost:9000  
+브라우저에서 localhost:9000 접속
 
 ## 3. Training
 
@@ -64,11 +64,11 @@ activate tacotron
       parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
   ```
 
-1. Train a model
+* Train a model
 
-   ```text
-    python train.py
-   ```
+  ```text
+   python train.py
+  ```
 
 ## 5. Monitor with Tensorboard \(optional\)
 

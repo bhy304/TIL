@@ -31,7 +31,7 @@ while True:
 
     if (rect_type == 'q'):
         break 
-    
+
     if rect_type == '1':
         rect1 = 직사각형()
         가로_세로 = input("가로와 세로는??(usage:가로,세로)")
@@ -90,7 +90,7 @@ class 사각형:
 class 직사각형(사각형):
     name = "직사각형"
     msg = "가로와 세로는??(usage:가로,세로) > "
-   
+
 class 평행사변형(사각형):
     name = "평행사변형"
     msg = "밑변과 높이는??(usage:밑변, 높이) > "
@@ -115,7 +115,7 @@ while True:
 
     if (rect_type == 'q'):
         break 
-    
+
     rect_index = Casting.to_int(rect_type)
     if rect_index > len(all_rects):
         rect_index = 0

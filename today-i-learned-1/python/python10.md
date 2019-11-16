@@ -6,7 +6,7 @@ description: 외부 모듈
 
 ## pip : 외부 모듈 설치
 
-Usage: pip  &lt;command&gt; \[options\]
+Usage: pip &lt;command&gt; \[options\]
 
 ```bash
 pip list
@@ -19,7 +19,7 @@ python -m site # sys.path처럼 파이썬라이브러리가 설치되어 있는 
 
 **HTML 및 XML 파일에서 원하는 데이터를 손쉽게 Parsing 할 수 있는 Python 라이브러리**
 
-{% embed url="https://www.crummy.com/software/BeautifulSoup/" %}
+{% embed url="https://www.crummy.com/software/BeautifulSoup/" caption="" %}
 
 ```bash
 pip install beautifulsoup4
@@ -31,7 +31,7 @@ from bs4 import BeautifulSoup
 
 ## HTTP
 
- HTTP 메시지는 서버와 클라이언트 간에 데이터가 교환되는 방식입니다. 메시지 타입은 두 가지가 있습니다. **요청\(**_**request\)은**_ **클라이언트가 서버로 전달해서 서버의 액션이 일어나게끔 하는 메시지**고, **응답\(**_**response\)은 요청**_**에 대한 서버의 답변**입니다.
+HTTP 메시지는 서버와 클라이언트 간에 데이터가 교환되는 방식입니다. 메시지 타입은 두 가지가 있습니다. **요청\(**_**request\)은**_ **클라이언트가 서버로 전달해서 서버의 액션이 일어나게끔 하는 메시지**고, **응답\(**_**response\)은 요청**_**에 대한 서버의 답변**입니다.
 
 * **request**
 * **response**
@@ -49,6 +49,4 @@ r = requests.get('http://www.google.com', timeout=(5 ,14))
 r.text
 r.status_code
 ```
-
-
 

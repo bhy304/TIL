@@ -78,7 +78,6 @@ print("------------------------")
 for s in students:
     if s.score > avg:
         print(s.name, s.score)
-
 ```
 {% endtab %}
 {% endtabs %}

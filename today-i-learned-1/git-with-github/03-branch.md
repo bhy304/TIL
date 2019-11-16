@@ -55,8 +55,9 @@ $ git pull origin <branch-name>
 $ git checkout -p <branch-name><file-name> #patch
 ```
 
-#### GitHub Collaborator & folk
+### GitHub Collaborator & folk
 
 * collaborator : Repository의 공동 작업자
 * folk : 다른 사람의 Repository 연결하기 
 * ※ 주의 : folk된 repository의 경로는 원본과 다름!!
+

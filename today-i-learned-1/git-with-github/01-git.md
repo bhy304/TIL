@@ -8,14 +8,15 @@ description: 'Git 설치 및 설정, add, commit, push, pull, clone'
 
 ## Git 시작하기
 
-#### Download git client
+### Download git client
 
-{% embed url="https://git-scm.com/downloads" %}
+{% embed url="https://git-scm.com/downloads" caption="" %}
 
-#### Git client 설치시 
+### Git client 설치시
 
 1. **Choosing the default editor used by Git - Use Vim 선택**
 
+<<<<<<< HEAD:TODAY I LEARNED/git-with-github/01-git.md
 ![](./../../.gitbook/assets/image1.png)
 
 **2. Adjusting your PATH environment - Use Git from the Windows Command Prompt 선택**
@@ -25,11 +26,22 @@ description: 'Git 설치 및 설정, add, commit, push, pull, clone'
 ## Git Structure
 
 ![](./../../.gitbook/assets/git_structure.jpg)
+=======
+![](https://github.com/bhy304/TIL/tree/6ca1bcc4e78d298f9e739ada4db1dfd424d44933/TodayILearned/.gitbook/assets/image%20%281%29.png)
+
+**2. Adjusting your PATH environment - Use Git from the Windows Command Prompt 선택**
+
+![](https://github.com/bhy304/TIL/tree/6ca1bcc4e78d298f9e739ada4db1dfd424d44933/TodayILearned/.gitbook/assets/image%20%282%29.png)
+
+## Git Structure
+
+![](https://github.com/bhy304/TIL/tree/6ca1bcc4e78d298f9e739ada4db1dfd424d44933/TodayILearned/.gitbook/assets/git_structure.jpg)
+>>>>>>> b368c22a8c40d75649ab08ab5318e4244f6c0114:today-i-learned-1/git-with-github/01-git.md
 
 > **git remote** : 현재 프로젝트에 등록된 리모트 저장소를 확인할 수 있음. 이 명령은 리모트 저장소의 단축 이름을 보여준다. 저장소를 Clone하면 origin이라는 리모트 저장소가 자동으로 등록되기 때문에 origin이라는 이름을 볼 수 있다.
-
+>
 > **git remote -v** : 단축이름과 URL 확인
-
+>
 > **git remote add origin** : 리모트 저장소 추가
 
 ## GitHub New Repository
@@ -40,11 +52,19 @@ GitHub 가입 및 로그인하기!
 
 New repository
 
+<<<<<<< HEAD:TODAY I LEARNED/git-with-github/01-git.md
 ![](./../../.gitbook/assets/image3.png)
 
 ![](./../../.gitbook/assets/image4.png)
 
 ![](./../../.gitbook/assets/image5.png)
+=======
+![](https://github.com/bhy304/TIL/tree/6ca1bcc4e78d298f9e739ada4db1dfd424d44933/TodayILearned/.gitbook/assets/image%20%283%29.png)
+
+![](https://github.com/bhy304/TIL/tree/6ca1bcc4e78d298f9e739ada4db1dfd424d44933/TodayILearned/.gitbook/assets/image%20%284%29.png)
+
+![](https://github.com/bhy304/TIL/tree/6ca1bcc4e78d298f9e739ada4db1dfd424d44933/TodayILearned/.gitbook/assets/image%20%285%29.png)
+>>>>>>> b368c22a8c40d75649ab08ab5318e4244f6c0114:today-i-learned-1/git-with-github/01-git.md
 
 {% hint style="info" %}
 마크다운 사용법 익히기 [https://gist.github.com/ihoneymon/652be052a0727ad59601](https://gist.github.com/ihoneymon/652be052a0727ad59601)

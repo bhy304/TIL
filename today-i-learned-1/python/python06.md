@@ -19,7 +19,7 @@ file.close()
 # 파일 쓰기
 with open("filename","w") as file:
     file.write("파일 내용")
-    
+
 # 파일 읽기
 with open("filename","r") as file:
     for line in file:
@@ -48,12 +48,12 @@ read_file()
 
 ## Iterable functions
 
-#### 1-1 Iterable <a id="1-1-iterable"></a>
+### 1-1 Iterable <a id="1-1-iterable"></a>
 
 * iterable 객체 - **반복 가능한 객체**
 * 대표적으로 iterable한 타입 - list, dict, set, str, bytes, tuple, range
 
-#### 1-2 Iterator <a id="1-2-iterator"></a>
+### 1-2 Iterator <a id="1-2-iterator"></a>
 
 * iterator 객체 - **값을 차례대로 꺼낼 수 있는 객체**입니다.
 * iterator는 iterable한 객체를 내장함수 또는 iterable객체의 메소드로 객체를 생성할 수 있습니다.
@@ -116,7 +116,7 @@ True
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 StopIteration
- 
+
 >>> it9 = iter(t)
 >>> next(it9, None)
 1
@@ -128,10 +128,10 @@ StopIteration
 4
 >>> next(it9, None)
 5
->>> next(it9, None) 
+>>> next(it9, None)
 ```
 
-#### zip\(\)
+### zip\(\)
 
 ```bash
 >>> l1 = [1,2,3]
@@ -144,7 +144,7 @@ StopIteration
 >>> l3 = [7,8]
 >>> z = zip(l1, l3)
 >>> list(z) 
-[(1, 7), (2, 8)] 
+[(1, 7), (2, 8)]
 ```
 
 ## Filter\(\) function

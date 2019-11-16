@@ -32,7 +32,7 @@ def change_x():
     global g_x # global 선언해주면 g_x는 전역변수와 같아지게 됨.
     g_x = 300
     print("inner def>>", g_x)
-    
+
 change_x()
 print("222>>", g_x)
 ```

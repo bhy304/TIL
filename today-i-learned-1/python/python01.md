@@ -13,7 +13,7 @@ Open Hello directory on VSCode
 
 New File **Hello.py**
 
-Write code 
+Write code
 {% endhint %}
 
 {% tabs %}
@@ -30,7 +30,11 @@ Run Code
 python Hello.py
 ```
 
+<<<<<<< HEAD:TODAY I LEARNED/python/python01.md
 ![](./../../.gitbook/assets/image.png)
+=======
+![](https://github.com/bhy304/TIL/tree/6ca1bcc4e78d298f9e739ada4db1dfd424d44933/TodayILearned/.gitbook/assets/image.png)
+>>>>>>> b368c22a8c40d75649ab08ab5318e4244f6c0114:today-i-learned-1/python/python01.md
 
 ## Python **Interpreter**
 
@@ -91,7 +95,7 @@ True
 <class 'float'>
 ```
 
-### 2. 문자열 
+### 2. 문자열
 
 str = **List\(Array\) of Character**
 

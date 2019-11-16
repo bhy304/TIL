@@ -53,7 +53,7 @@ cmds = cmd.split(',')
 print(cmds)
 ```
 
-#### Try this
+### Try this
 
 이름, 나이, 성별을 입력받아, "당신의 이름은 {}, 나이는 {}, 성별은 {} 입니다." 출력
 
@@ -75,7 +75,7 @@ error_msg = "정확히 입력해주세요!!!"
 if cmd == '':
     print(error_msg)
     exit()
-  
+
 # 2. , 가 있는지 체크
 # if ',' not in cmd:
 if cmd.find(',') == -1:
@@ -132,7 +132,7 @@ def full_name(first_name, last_name):
 
 name = get_name()
 # name[1] = "aaaa" # Tuple은 Read Only List이기 때문에 변경할 수 없음!
-print(name, full_name('Steave','Loser')) 
+print(name, full_name('Steave','Loser'))
 ```
 
 ' \* ' : 가변인자\(valuable param\) =&gt; Tuple 타입
@@ -151,14 +151,14 @@ default_param('aa')
 default_param('aa','bbbbbbbbbbb')
 ```
 
-#### Try this
+### Try this
 
 두 수를 받아, 사칙연산\(+,-,\*,/\)을 수행하는 함수를 만들어 보시오.
 
 ```python
 def plus(a, b):
     return a + b
-    
+
 def minus(a, b):
     return a - b
 
@@ -205,7 +205,7 @@ class Dog:
     #def __init__(self):
         # self.name = "Dog"
         #print("Dog was Born")
-    
+
     def __init__(self, name):
         self.name = name
         print(self.name, "was Born")
@@ -285,7 +285,7 @@ test = Test()
 test.test()
 ```
 
-##  **Static Method on Class**
+## **Static Method on Class**
 
 **Class는 정적, Instance 동적**
 
