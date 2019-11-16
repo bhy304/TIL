@@ -30,7 +30,7 @@ Run Code
 python Hello.py
 ```
 
-![](../.gitbook/assets/image.png)
+![](./../../.gitbook/assets/image.png)
 
 ## Python **Interpreter**
 
