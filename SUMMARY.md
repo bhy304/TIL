@@ -9,6 +9,8 @@
 
 ## TODAY I LEARNED <a id="today-i-learned"></a>
 
+* [JavaScript](today-i-learned/javascript30/README.md)
+  * [01 - JavaScript Drum Kit](today-i-learned/javascript30/day01.md)
 * [PYTHON](today-i-learned/python/README.md)
   * [what is python?](today-i-learned/python/what-is-python.md)
   * [python01](today-i-learned/python/python01.md)
@@ -41,4 +43,3 @@
   * [Tacotron Test at server 192.168.113.104](today-i-learned/server/2019-04-02-serverenvironment.md)
 * [DOCKER](today-i-learned/docker/README.md)
   * [Docker](today-i-learned/docker/docker.md)
-
