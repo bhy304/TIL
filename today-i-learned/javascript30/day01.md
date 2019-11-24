@@ -14,10 +14,10 @@
 
 ### 학습 내용
 
-##### 1. HTML \<kbd> tag
+##### 1. HTML ```<kbd>``` tag
 
-\<kbd> 태그는 키보드(keyboard) 입력을 나타낼 때 사용한다. <br>
-\<kbd> 요소 내의 텍스트는 브라우저의 기본 고정폭 글꼴을 사용하여 표현된다. 
+```<kbd>``` 태그는 키보드(keyboard) 입력을 나타낼 때 사용한다. <br>
+```<kbd>``` 요소 내의 텍스트는 브라우저의 기본 고정폭 글꼴을 사용하여 표현된다. 
 
 ```html
 <kbd>A</kbd>
@@ -66,7 +66,7 @@ const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
 ```
 
 만약 audio element가 없다면(audio 태그의 data-key 속성과 매칭되는 값이 없다면) null 값을 출력하게 된다. 
-그러므로 audio element가 없다면 return하고 
+그러므로 audio element가 없다면 return
 
 ```javascript
 if(!audio) return; 
