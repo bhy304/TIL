@@ -14,7 +14,7 @@ CSS와 JavaScript를 이용한 아날로그 시계 구현
 
 ### 학습 내용
 
-##### 1. CSS
+#### 1. CSS
 
 ```css
 .hand {
@@ -42,7 +42,7 @@ CSS와 JavaScript를 이용한 아날로그 시계 구현
 |         **transition**         | transition 속성은 요소의 움직임을 정의한다.                  |
 | **transition-timing-function** | transition-timing-function 속성은 요소의 움직임 기능을 정의한다.<br />cubic-bezier(n, n, n, n) : 베지어 곡선값을 만들어서 속도를 설정한다. |
 
-##### 2. JS
+#### 2. JS
 
 ##### 2-1) now() Method
 

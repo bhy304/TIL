@@ -12,6 +12,7 @@
 * [JavaScript30](today-i-learned/javascript30/README.md)
   * [01 - JavaScript Drum Kit](today-i-learned/javascript30/day01.md)
   * [02 - JS and CSS Clock](today-i-learned/javascript30/day02.md)
+  * [03 - CSS Variables](today-i-learned/javascript30/day03.md)
 * [PYTHON](today-i-learned/python/README.md)
   * [what is python?](today-i-learned/python/what-is-python.md)
   * [python01](today-i-learned/python/python01.md)
