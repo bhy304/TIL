@@ -16,13 +16,13 @@ Javascript로 CSS 변수 업데이트
 
 #### 1. HTML
 
-* ```<input>``` Tag type
+```<input>``` Tag type
 ```html
-// range
+<!-- // range -->
 <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
 
-// color
+<!-- // color -->
 <input id="base" type="color" name="base" value="#ffc600">
 ```
 
