@@ -53,7 +53,7 @@ HTML5의 도입으로 HTML에서도 데이터를 저장할 수 있게 되었고 
 
 ```javascript
 window.addEventListener('keydown', function(e) {
-	console.log(e.keyCode); // 키보드를 누를때마다 이벤트가 발생하고 콘솔창에 keyCode 출력한다.
+	console.log(e.keyCode); // 키보드를 누를때마다 이벤트가 발생하고 콘솔창에 keyCode 출력
 });
 ```
 
