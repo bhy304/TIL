@@ -28,7 +28,7 @@ Javascript로 CSS 변수 업데이트
 
 #### 2. CSS Variables
 
-CSS 변수는 문서 전반적으로 재사용할 어떠한 특정 값을 포함하는, CSS 작성자가 정의한 엔터티이다. <br> CSS 변수는 종속되며, 부모로부터 값을 상속받는다.
+CSS 변수는 문서 전반적으로 재사용할 어떠한 특정 값을 포함하는, CSS 작성자가 정의한 엔터티이다.<br>CSS 변수는 종속되며, 부모로부터 값을 상속받는다.
 
 * 변수 선언
 ```css
@@ -50,11 +50,10 @@ img {
 
 #### 3. JS
 
-- ```document.querySelector()``` 
-  : 주어진 CSS 선택자에 대응하는 요소 중 첫 번째 요소를 반환
-- ```document.querySelectorAll()``` 
-  : 주어진 CSS 선택자에 대응하는 요소 모두를 반환
-- 개발자도구의 콘솔창을 통해 ```document.querySelectorAll('.controls input')``` 확인하면 ```__proto__ : NodeList```임을 알 수 있다. <br> ```NodeList```가 ```Array```는 아니지만 ```forEach()```를 사용하여 반복할 수 있다. 
+- ```document.querySelector()``` : 주어진 CSS 선택자에 대응하는 요소 중 첫 번째 요소를 반환
+- ```document.querySelectorAll()``` : 주어진 CSS 선택자에 대응하는 요소 모두를 반환
+
+- 개발자도구의 콘솔창을 통해 ```document.querySelectorAll('.controls input')``` 확인하면 ```__proto__ : NodeList```임을 알 수 있다. <br>NodeList가 Array는 아니지만 **```forEach()```**를 사용하여 반복할 수 있다. 
   
 ```javascript
 function handleUpdate() {
@@ -73,13 +72,11 @@ inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
 
 ##### 3-2. dataset
 HTMLElement.dataset 속성은 HTML이나 DOM 요소의 커스텀 데이터 속성(data-*)에 대한 읽기와 쓰기 접근을 허용한다.
-
 ```html
 <!-- HTML -->
 <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 ```
-
 ```javascript
 // JavaScript
-this.dataset.sizing
+const suffix = this.dataset.sizing
 ```

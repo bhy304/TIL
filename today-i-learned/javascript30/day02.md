@@ -69,11 +69,10 @@ function setDate() {
 ```javascript
 setInterval(setDate, 1000);
 ```
-
 setInterval() 함수는 일정한 시간 간격으로 코드를 반복 실행하는 함수이다.
 
 ##### ※ setInterval()과 setTimeout() 함수의 차이?
 
 * ```setInterval```은 일정 시간 간격으로 함수가 주기적으로 실행된다.
-* ```setTimeout```은 일정 시간 간격 이후에 함수가 한번 실행된다. 
 
+* ```setTimeout```은 일정 시간 간격 이후에 함수가 한번 실행된다. 
