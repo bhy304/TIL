@@ -80,3 +80,9 @@ HTMLElement.dataset 속성은 HTML이나 DOM 요소의 커스텀 데이터 속�
 // JavaScript
 const suffix = this.dataset.sizing
 ```
+
+##### 3-3. element.style을 통한 인라인 스타일
+Javascript를 사용해서 CSS를 조작하는 가장 기본적인 방법은 style을 이용하는 것이다.
+```javascript
+document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+```
