@@ -13,6 +13,7 @@
   * [01 - JavaScript Drum Kit](today-i-learned/javascript30/day01.md)
   * [02 - JS and CSS Clock](today-i-learned/javascript30/day02.md)
   * [03 - CSS Variables](today-i-learned/javascript30/day03.md)
+  * [04 - Array Cardio Day 1](today-i-learned/javascript30/day04.md)
 * [PYTHON](today-i-learned/python/README.md)
   * [what is python?](today-i-learned/python/what-is-python.md)
   * [python01](today-i-learned/python/python01.md)
