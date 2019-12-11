@@ -26,13 +26,13 @@ const fifteen = inventors.filter(function(inventor) {
 console.log(fifteen);
 ```
 ![](./../../.gitbook/assets/console_img1.png)
+
 💡 Arrow Function 사용
 ```javascript
 const fifteen = inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600);
 
 console.log(fifteen);
 ```
-
 #### 2. Array.prototype.map()
 ```map()``` 메서드는 배열 내의 모든 요소 각각에 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열을 반환한다. 
 ```javascript
@@ -40,13 +40,13 @@ const fullNames = inventors.map(inventor => inventor.first + inventor.last);
 console.log(fullNames);
 ```
 ![](./../../.gitbook/assets/console_img2.png)
+
 💡 Backtick(``)을 이용한 템플릿 리터럴(Template literal) 사용
 ```javascript
 const fullNames = inventors.map(inventor => `${inventor.first}  ${inventor.last}`);
 console.log(fullNames);
 ```
 ![](./../../.gitbook/assets/console_img3.png)
-
 #### 3. Array.prototype.sort()
 ```sort()``` 메서드는 배열의 요소를 적절한 위치에 정렬한 후 그 배열을 반환한다. 
 ```javascript
@@ -61,11 +61,11 @@ const ordered = inventors.sort(function(a, b) {
 console.table(ordered);
 ```
 ![](./../../.gitbook/assets/console_img4.png)
+
 💡 삼항 조건 연산자(Ternary Operator) 
 ```javascript
 const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
 ```
-
 #### 4. Array.prototype.reduce()
 ```reduce()``` 메서드는 배열의 각 요소에 대해 주어진 reducer 함수를 실행하고, 하나의 결과값을 반환한다. 
 ```javascript
@@ -82,8 +82,9 @@ const totalYears = inventors.reduce((total, inventor) => {
 }, 0); // 0으로 초기값 제공
 console.log(totalYears);
 ```
-#### 5. sort the inventors by years lived
+#### 5. Array.prototype.sort() - 2
 ```javascript
+// sort the inventors by years lived
 const oldest = inventors.sort(function(a, b) {
     const lastGuy = a.passed - a.year;
     const nextGuy = b.passed - b.year;
