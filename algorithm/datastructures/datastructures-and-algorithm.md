@@ -29,13 +29,13 @@
 
 💡 언어 : Python
 
-| 자료구조                 | notebook                                                     |
-| ------------------------ | ------------------------------------------------------------ |
-| 배열(Array)              | [Array](https://github.com/bhy304/TIL/blob/master/Array.ipynb) |
-| 스택(Stack)              |                                                              |
-| 큐(Queue)                |                                                              |
-| 연결 리스트(Linked List) |                                                              |
-| 해쉬 테이블(Hash Table)  |                                                              |
-| 트리(Tree)               |                                                              |
-| 힙(Heap)                 |                                                              |
-| 시간 복잡도              |                                                              |
+| DataStructure          | Notebook                                                     |
+| ---------------------- | ------------------------------------------------------------ |
+| 배열_Array             | [Array](https://github.com/bhy304/TIL/blob/master/Array.ipynb) |
+| 큐_Queue               | [Queue](https://github.com/bhy304/TIL/blob/master/Queue.ipynb) |
+| 스택_Stack             | [Stack](https://github.com/bhy304/TIL/blob/master/Stack.ipynb) |
+| 연결리스트_Linked List |                                                              |
+| 해시테이블_Hash Table  |                                                              |
+| 트리_Tree              |                                                              |
+| 힙_Heap                |                                                              |
+| 시간 복잡도            |                                                              |
