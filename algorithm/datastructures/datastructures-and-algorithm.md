@@ -25,8 +25,7 @@
 
 ## 💻 자료구조
 
-💡 실습환경 : Google Colab
-
+💡 실습환경 : Google Colab <br>
 💡 언어 : Python
 
 | DataStructure          | Notebook                                                     |
