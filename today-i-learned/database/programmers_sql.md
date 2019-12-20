@@ -26,3 +26,9 @@ Q. 동물 보호소에 들어온 동물 중 젊은 동물의 아이디와 이름
 ```mysql
 SELECT ANIMAL_ID, NAME FROM ANIMAL_INS WHERE NOT INTAKE_CONDITION IN ('aged');
 ```
+
+##### 동물의 아이디와 이름
+Q. 동물 보호소에 들어온 모든 동물의 아이디와 이름을 ANIMAL_ID순으로 조회하는 SQL문을 작성해주세요.
+```mysql
+SELECT ANIMAL_ID, NAME FROM ANIMAL_INS ORDER BY ANIMAL_ID;
+```
