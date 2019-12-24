@@ -44,3 +44,11 @@ Q. 동물 보호소에 **가장 먼저 들어온 동물의 이름을 조회**하
 ```mysql
 SELECT NAME FROM ANIMAL_INS ORDER BY DATETIME ASC LIMIT 1;
 ```
+
+## SUM, MAX, MIN
+
+##### 최댓값 구하기
+Q. **가장 최근에 들어온 동물은 언제 들어왔는지 조회**하는 SQL 문을 작성해주세요.
+```mysql
+SELECT DATETIME FROM ANIMAL_INS ORDER BY DATETIME DESC LIMIT 1;
+```
