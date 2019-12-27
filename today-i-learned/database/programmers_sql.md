@@ -58,3 +58,9 @@ Q. 동물 보호소에 **가장 먼저 들어온 동물은 언제 들어왔는�
 ```mysql
 SELECT DATETIME FROM ANIMAL_INS ORDER BY DATETIME ASC LIMIT 1;
 ```
+
+##### 동물 수 구하기
+Q. 동물 보호소에 동물이 몇 마리 들어왔는지 조회하는 SQL 문을 작성해주세요.
+```mysql
+SELECT COUNT(*) FROM ANIMAL_INS;
+```
