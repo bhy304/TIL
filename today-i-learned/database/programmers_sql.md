@@ -83,3 +83,9 @@ Q. 동물 보호소에 들어온 동물 이름 중 두 번 이상 쓰인 이름�
 ```mysql
 SELECT NAME, COUNT(NAME) AS COUNT_NAME FROM ANIMAL_INS WHERE NAME IS NOT NULL GROUP BY NAME HAVING COUNT_NAME >= 2;
 ```
+
+##### 입양 시각 구하기(1)
+Q. 보호소에서는 몇 시에 입양이 가장 활발하게 일어나는지 알아보려 합니다. 9시부터 19시까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요. 이때 결과는 시간대 순으로 정렬할 것.
+```mysql
+SELECT SUBSTRING(DATETIME,12,2) AS HOUR, COUNT(DATETIME) AS HOUR_COUNT FROM ANIMAL_OUTS GROUP BY HOUR HAVING HOUR BETWEEN 9 AND 19;
+```
