@@ -81,11 +81,31 @@ SELECT ANIMAL_TYPE, COUNT(*) AS COUNT FROM ANIMAL_INS GROUP BY ANIMAL_TYPE;
 ##### 동명 동물 수 찾기
 Q. 동물 보호소에 들어온 동물 이름 중 두 번 이상 쓰인 이름과 해당 이름이 쓰인 횟수를 조회하는 SQL문을 작성해주세요. 이때 결과는 이름이 없는 동물은 집계에서 제외하며, 결과는 이름 순으로 조회해주세요.
 ```mysql
-SELECT NAME, COUNT(NAME) AS COUNT_NAME FROM ANIMAL_INS WHERE NAME IS NOT NULL GROUP BY NAME HAVING COUNT_NAME >= 2;
+SELECT NAME, COUNT(NAME) AS COUNT_NAME 
+FROM ANIMAL_INS 
+WHERE NAME IS NOT NULL 
+GROUP BY NAME 
+HAVING COUNT_NAME >= 2;
 ```
 
 ##### 입양 시각 구하기(1)
 Q. 보호소에서는 몇 시에 입양이 가장 활발하게 일어나는지 알아보려 합니다. 9시부터 19시까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요. 이때 결과는 시간대 순으로 정렬할 것.
 ```mysql
-SELECT SUBSTRING(DATETIME,12,2) AS HOUR, COUNT(DATETIME) AS HOUR_COUNT FROM ANIMAL_OUTS GROUP BY HOUR HAVING HOUR BETWEEN 9 AND 19;
+SELECT SUBSTRING(DATETIME,12,2) AS HOUR, COUNT(DATETIME) AS HOUR_COUNT 
+FROM ANIMAL_OUTS 
+GROUP BY HOUR 
+HAVING HOUR BETWEEN 9 AND 19;
+```
+
+##### 입양 시각 구하기(2)
+Q. 보호소에서는 몇 시에 입양이 가장 활발하게 일어나는지 알아보려 합니다. 0시부터 23시까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요. 이때 결과는 시간대 순으로 정렬할 것.
+```mysql
+SET @hour = -1;
+
+SELECT @hour := @hour + 1 AS HOUR, (
+    SELECT COUNT(DATETIME) 
+    FROM ANIMAL_OUTS B
+    WHERE HOUR(DATETIME) = @hour 
+) AS COUNT FROM ANIMAL_OUTS A
+WHERE @hour < 23;
 ```
