@@ -131,3 +131,14 @@ Q. 입양 게시판에 동물 정보를 게시하려 합니다. 동물의 생물
 ```mysql
 SELECT ANIMAL_TYPE, IFNULL(NAME, 'No name'), SEX_UPON_INTAKE FROM ANIMAL_INS ORDER BY ANIMAL_ID;
 ```
+
+## JOIN 
+
+##### 없어진 기록 찾기
+Q. 입양을 간 기록은 있는데, 보호소에 들어온 기록이 없는 동물의 ID와 이름을 ID 순으로 조회하는 SQL문을 작성해주세요.
+```mysql
+SELECT OUTS.ANIMAL_ID, OUTS.NAME 
+FROM ANIMAL_OUTS AS OUTS
+LEFT JOIN ANIMAL_INS AS INS ON (INS.ANIMAL_ID = OUTS.ANIMAL_ID)
+WHERE INS.ANIMAL_ID IS NULL;
+```
