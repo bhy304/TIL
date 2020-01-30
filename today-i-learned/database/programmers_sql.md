@@ -115,19 +115,19 @@ WHERE @hour < 23;
 ## IS NULL 
 
 ##### 이름이 없는 동물의 아이디
-Q. 동물 보호소에 들어온 동물 중, 이름이 없는 채로 들어온 동물의 ID를 조회하는 SQL 문을 작성해주세요. 단, ID는 오름차순 정렬되어야 합니다.
+Q. 동물 보호소에 들어온 동물 중, 이름이 없는 채로 들어온 동물의 ID를 조회. 단, ID는 오름차순 정렬되어야 합니다.
 ```mysql
 SELECT ANIMAL_ID FROM ANIMAL_INS WHERE NAME IS NULL;
 ```
 
 ##### 이름이 있는 동물의 아이디
-Q. 동물 보호소에 들어온 동물 중, 이름이 있는 동물의 ID를 조회하는 SQL 문을 작성해주세요. 단, ID는 오름차순 정렬되어야 합니다.
+Q. 동물 보호소에 들어온 동물 중, 이름이 있는 동물의 ID를 조회. 단, ID는 오름차순 정렬되어야 합니다.
 ```mysql
 SELECT ANIMAL_ID FROM ANIMAL_INS WHERE NAME IS NOT NULL;
 ```
 
 ##### NULL 처리하기
-Q. 입양 게시판에 동물 정보를 게시하려 합니다. 동물의 생물 종, 이름, 성별 및 중성화 여부를 아이디 순으로 조회하는 SQL문을 작성해주세요. 이때 프로그래밍을 모르는 사람들은 NULL이라는 기호를 모르기 때문에, 이름이 없는 동물의 이름은 No name으로 표시해 주세요.
+Q. 입양 게시판에 동물 정보를 게시하려 합니다. 동물의 생물 종, 이름, 성별 및 중성화 여부를 아이디 순으로 조회. 이때 프로그래밍을 모르는 사람들은 NULL이라는 기호를 모르기 때문에, 이름이 없는 동물의 이름은 No name으로 표시.
 ```mysql
 SELECT ANIMAL_TYPE, IFNULL(NAME, 'No name'), SEX_UPON_INTAKE FROM ANIMAL_INS ORDER BY ANIMAL_ID;
 ```
@@ -135,7 +135,7 @@ SELECT ANIMAL_TYPE, IFNULL(NAME, 'No name'), SEX_UPON_INTAKE FROM ANIMAL_INS ORD
 ## JOIN 
 
 ##### 없어진 기록 찾기
-Q. 입양을 간 기록은 있는데, 보호소에 들어온 기록이 없는 동물의 ID와 이름을 ID 순으로 조회하는 SQL문을 작성해주세요.
+Q. 입양을 간 기록은 있는데, 보호소에 들어온 기록이 없는 동물의 ID와 이름을 ID 순으로 조회
 ```mysql
 SELECT OUTS.ANIMAL_ID, OUTS.NAME 
 FROM ANIMAL_OUTS AS OUTS
@@ -144,7 +144,7 @@ WHERE INS.ANIMAL_ID IS NULL;
 ```
 
 ##### 있었는데요 없었습니다
-Q. 보호 시작일보다 입양일이 더 빠른 동물의 아이디와 이름을 조회하는 SQL문을 작성해주세요.
+Q. 보호 시작일보다 입양일이 더 빠른 동물의 아이디와 이름을 조회
 ```mysql
 SELECT INS.ANIMAL_ID, INS.NAME 
 FROM ANIMAL_INS AS INS
@@ -152,4 +152,16 @@ INNER JOIN ANIMAL_OUTS AS OUTS
 ON INS.ANIMAL_ID = OUTS.ANIMAL_ID
 AND INS.DATETIME > OUTS.DATETIME
 ORDER BY INS.DATETIME;
+```
+
+##### 오랜 기간 보호한 동물(1)
+Q. 아직 입양을 못 간 동물 중, 가장 오래 보호소에 있었던 동물 3마리의 이름과 보호 시작일을 조회. 이때 결과는 보호 시작일 순으로 조회.
+```mysql
+SELECT INS.NAME, INS.DATETIME
+FROM ANIMAL_INS AS INS
+LEFT OUTER JOIN ANIMAL_OUTS AS OUTS
+ON INS.ANIMAL_ID = OUTS.ANIMAL_ID
+WHERE 1=1 AND OUTS.ANIMAL_ID IS NULL
+ORDER BY INS.DATETIME
+LIMIT 3;
 ```
