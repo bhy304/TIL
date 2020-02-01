@@ -177,3 +177,13 @@ AND B.SEX_UPON_OUTCOME NOT IN ('Intact Female', 'Intact Male')
 WHERE 1=1
 AND A.SEX_UPON_INTAKE IN ('Intact Female', 'Intact Male');
 ```
+
+## STRING, DATE
+
+##### 루시와 엘라 찾기
+Q. 동물 보호소에 들어온 동물 중 이름이 Lucy, Ella, Pickle, Rogan, Sabrina, Mitty인 동물의 아이디와 이름, 성별을 조회하는 SQL 문을 작성해주세요.
+```mysql
+SELECT ANIMAL_ID, NAME, SEX_UPON_INTAKE 
+FROM ANIMAL_INS
+WHERE NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty');
+```
