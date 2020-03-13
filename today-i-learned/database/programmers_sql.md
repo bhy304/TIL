@@ -221,3 +221,6 @@ Q. ANIMAL_INS 테이블에 등록된 모든 레코드에 대해, 각 동물의 �
 SELECT ANIMAL_ID, NAME, DATE_FORMAT(DATETIME, '%Y-%m-%d') AS 날짜
 FROM ANIMAL_INS;
 ```
+
+---
+출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
